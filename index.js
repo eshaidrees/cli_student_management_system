@@ -70,7 +70,7 @@ do {
                 }
             }
             else {
-                console.log(chalk.red("invaled Name"));
+                console.log(chalk.red("invalid Name"));
             }
         }
         else {

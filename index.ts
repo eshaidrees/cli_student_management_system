@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 
- import inquirer from "inquirer";
- import chalk from "chalk";
+import inquirer from "inquirer";
+import chalk from "chalk";
+
 class student {
     Name:string;
     StudID:string;
@@ -86,7 +87,7 @@ do{
         }
   
       }else{
-        console.log(chalk.red("invaled Name"));
+        console.log(chalk.red("invalid Name"));
       }
     }else{
       console.log(chalk.red("this name is already exist"));
